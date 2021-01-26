@@ -10,5 +10,9 @@ const kPrimaryGradient = LinearGradient(
   begin: Alignment.centerLeft,
   end: Alignment.centerRight,
 );
-
+const kWelcomeGradient = LinearGradient(
+  colors: [Colors.cyan, Colors.teal],
+  begin: Alignment.centerLeft,
+  end: Alignment.centerRight,
+);
 const double kDefaultPadding = 20.0;

@@ -19,7 +19,7 @@ class Body extends StatelessWidget {
     QuestionController _questionController = Get.put(QuestionController());
     return Stack(
       children: [
-        WebsafeSvg.asset("assets/icons/bg.svg", fit: BoxFit.fill),
+        WebsafeSvg.asset("assets/icons/bg.svg", fit: BoxFit.fill,width: MediaQuery.of(context).size.width,height: MediaQuery.of(context).size.height),
         SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
